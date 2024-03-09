@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# author krishna kaushik
+# date: 9/3/2024
+# contact: krishna kaushik
 # GitHub API URL
 API_URL="https://api.github.com"
 
