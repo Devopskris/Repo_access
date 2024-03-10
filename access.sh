@@ -3,6 +3,8 @@
 # date: 9/3/2024
 # contact: krishna kaushik
 # GitHub API URL
+helper()
+
 API_URL="https://api.github.com"
 
 # GitHub username and personal access token
@@ -37,6 +39,14 @@ function list_users_with_read_access {
         echo "$collaborators"
     fi
 }
+function heleper{
+    expected_cmd_args=2
+    if [$# -ne $expected_cmd_args]; then
+    echo "please execute the script with required cmd args"
+    echo "asd"
+}
+
+
 
 # Main script
 
